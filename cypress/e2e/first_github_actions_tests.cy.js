@@ -7,6 +7,6 @@ describe("Cypress GitHub actions demo", () => {
 
   it("Open pmtool", () => {
     cy.visit("http://tredgate.com/pmtool");
-    cy.get(".form-tittle").should("have.text", "Login");
+    cy.get(".form-title").should("have.text", "Login");
   });
 });
